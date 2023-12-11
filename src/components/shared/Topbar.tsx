@@ -14,7 +14,7 @@ const Topbar = () => {
   // If the user is logged out, redirect to the login page
   useEffect(() => {
     if (isSuccess) navigate(0);
-  })
+  }, [isSuccess])
 
   return (
     <section className="topbar">
