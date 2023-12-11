@@ -23,7 +23,6 @@ export default function App() {
 
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
-<<<<<<< HEAD
           <Route path="/explore" element={<Explore />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/all-users" element={<AllUsers />} />
@@ -32,16 +31,6 @@ export default function App() {
           <Route path="/posts/:id" element={<PostDetails />} />
           <Route path="/profile/:id/*" element={<Profile />} />
           <Route path="/update-profile/:id" element={<UpdateProfile />} />
-=======
-          <Route path="/explore" element {<Explore />} />
-          <Route path="/saved" element {<Saved />} />
-          <Route path="/all-users" element {<AllUsers />} />
-          <Route path="/create-post" element {<CreatePost />} />
-          <Route path="/update-post/:id" element {<EditPost />} />
-          <Route path="/posts/:id" element {<PostDetails />} />
-          <Route path="/profile/:id/*" element {<Profile />} />
-          <Route path="/update-profile/:id" element {<UpdateProfile />} />
->>>>>>> 2415c57799673428aca9cf6b6ca5fe1453347012
         </Route>
       </Routes>
       <Toaster />
